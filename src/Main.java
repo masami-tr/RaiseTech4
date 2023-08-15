@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args){
 
         //お酒の種類を格納
-        List<String> alcohol = Arrays.asList("beer","wine","whisky","shochu");
+        List<String> alcohol = Arrays.asList("beer","wine","whisky","shochu", "vodka");
 
         //Streamを生成
         alcohol.stream()
