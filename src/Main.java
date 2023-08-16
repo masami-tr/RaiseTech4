@@ -12,7 +12,7 @@ public class Main {
         alcohol.stream()
 
         //'w'で始まるアルコールを抽出（中間操作）
-        .filter(s -> s.startsWith("w"))
+        .filter(s -> s.startsWith("v"))
         //大文字に変換（中間処理）
         .map(s -> s.toUpperCase())
         //変換したのもを出力（終端操作）
